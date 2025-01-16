@@ -11,12 +11,12 @@
  public class SampleTests {
      
      @Test
-     void testPassing() {
+     public void testPassing() {
          assertEquals(2, 1 + 1);
      }
  
      @Test
-     void testFailing() {
+     public void testFailing() {
          assertEquals(2, 1 + 1 + 1);
      }
 }
