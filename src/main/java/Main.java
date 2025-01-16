@@ -2,19 +2,7 @@ public class Main {
 
     /* Implement your solution inside this method. */
     public static String[] handle(int n) {
-        String[] result = new String[n];
-        for (int i = 1; i <= n; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                result[i - 1] = "FizzBuzz";
-            } else if (i % 3 == 0) {
-                result[i - 1] = "Fizz";
-            } else if (i % 5 == 0) {
-                result[i - 1] = "Buzz";
-            } else {
-                result[i - 1] = String.valueOf(i);
-            }
-        }
-        return result;
+        return new String[0];
     }
 
     /*
