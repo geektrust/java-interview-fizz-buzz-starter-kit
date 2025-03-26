@@ -1,10 +1,6 @@
 public class Main {
 
-    /* Implement your solution inside this method. */
-    public static String[] handle(int n) {
-        return new String[0];
-    }
-
+ 
     /*
      * *****************************************************************************
      * DO NOT EDIT THIS CODE.
@@ -15,7 +11,7 @@ public class Main {
      */
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0].trim());
-        String[] result = handle(n);
+        String[] result = new Solution().handle(n);
         System.out.println("[\"" + String.join("\", \"", result) + "\"]");
     }
 }
